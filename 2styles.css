@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+  
+  .column h2 {
+    color: #333333;
+  }
+  
+  .column p {
+    margin-top: 10px;
+    color: #666666;
+  }
+  
+  .column img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  

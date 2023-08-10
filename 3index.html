@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Gallery</title>
+<link rel="stylesheet" href="3styles.css">
+</head>
+<body>
+  <div class="gallery">
+    <div class="thumbnail" onclick="openLightbox('image1.jpeg')">
+      <img src="image1.jpeg" alt="Image 1">
+    </div>
+    <div class="thumbnail" onclick="openLightbox('image2.jpeg')">
+      <img src="image2.jpeg" alt="Image 2">
+    </div>
+    <div class="thumbnail" onclick="openLightbox('image3.jpeg')">
+      <img src="image3.jpeg" alt="Image 3">
+    </div>
+  </div>
+  
+  <div class="lightbox" id="lightbox">
+    <span class="close-btn" onclick="closeLightbox()">&times;</span>
+    <img src="" alt="" id="lightbox-image">
+  </div>
+  
+  <script src="scripts.js"></script>
+</body>
+</html>
